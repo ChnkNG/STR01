@@ -53,3 +53,6 @@ ptwd = st.slider("กรุณาเลือกข้อมูล petal.width",
 
 splen = st.number_input("กรุณาเลือกข้อมูล sepal.length")
 spwd = st.number_input("กรุณาเลือกข้อมูล sepal.width")
+
+from sklearn.neighbors import KNeighborsClassifier
+import numpy as np
